@@ -1,0 +1,23 @@
+{
+    "mod": {
+        "pkg": "com.goldenfield192.ire",
+        "cls": "Mod",
+        "name": "Mod",
+        "id": "template",
+        "version": "0.0.1",
+        "dependencies": {
+          "trackapi": {
+            "versions": "[1.1,)"
+          }
+        }
+    },
+  "integration": {
+    "repo": "git@github.com:TeamOpenIndustry/ImmersiveRailroadingIntegration.git",
+    "branch": "%s",
+    "path": "ImmersiveRailroadingIntegration"
+  },
+    "umc": {
+        "version": "latest"
+    }
+}
+

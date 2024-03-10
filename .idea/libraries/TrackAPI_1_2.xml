@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TrackAPI-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Minecraft/1.12.2/mods/TrackAPI-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
