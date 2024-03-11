@@ -20,7 +20,6 @@ public class WireItem extends CustomItem {
     @TagField("connectedTo")
     private ConnectorBlockEntity connection = null;
 
-    private boolean isConnecting;
     private ConnectorBlockEntity cbe;
 
     public WireItem(String modID, String name) {
@@ -39,7 +38,7 @@ public class WireItem extends CustomItem {
         if(storage == null){
             return ClickResult.REJECTED;
         }
-        if (cbe != null && storage != null && !cbe.getPos().equals(storage.getPos())) {
+        if (cbe != null && !cbe.getPos().equals(storage.getPos())) {
             if (cbe.getPos().y != storage.getPos().y) {
                 player.sendMessage(PlayerMessage.direct("Don't support slope for now!"));
                 return ClickResult.PASS;
@@ -48,11 +47,9 @@ public class WireItem extends CustomItem {
             cbe.addWire(true, storage.getPos().subtract(cbe.getPos()));
             storage.addWire(false, cbe.getPos().subtract(storage.getPos()));
             cbe = null;
-        } else if(storage != null){
+        } else {
             cbe = storage;
             player.sendMessage(PlayerMessage.direct("First point set: " + cbe.getPos()));
-        } else if(cbe.getPos().equals(storage.getPos())){
-            player.sendMessage(PlayerMessage.direct("cannot connect to self!"));
         }
         return ClickResult.ACCEPTED;
     }

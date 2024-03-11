@@ -1,5 +1,8 @@
 package com.goldenfield192.ire.util.graph;
 
+import cam72cam.mod.block.BlockEntity;
+import cam72cam.mod.event.CommonEvents;
+import cam72cam.mod.math.Vec3i;
 import cam72cam.mod.world.World;
 import com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity;
 
@@ -7,58 +10,32 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class GraphHandler {
-    public static HashSet<DimGraph> wireMap;
+    private static HashMap<World,DimGraph> wireMap;
+
     //初始化
     public static void init(){
-        wireMap = new HashSet<>();
+        wireMap = new HashMap<>();
+        CommonEvents.World.LOAD.subscribe(w ->{
+            World world = World.get(w);
+            loadWorld(world);
+        });
     }
 
     //加载已有世界
     public static void loadWorld(World world){
-        if(wireMap.stream().noneMatch(g -> g.getDim().equals(world))){
-//            HashMap<UUID,ConnectorBlockEntity> map = new HashMap<>();
-//            world.getBlockEntities(ConnectorBlockEntity.class).forEach(e -> map.put(e.uuid,e));
-            DimGraph d = new DimGraph(world,new HashSet<>(new ArrayList<>(world.getBlockEntities(ConnectorBlockEntity.class))));
-            System.out.println(world.getBlockEntities(ConnectorBlockEntity.class).size());
-            wireMap.add(d);
-            update(world);
+        if(!wireMap.containsKey(world)){
+            HashSet<Vec3i> cbeSet = world.getBlockEntities(ConnectorBlockEntity.class).stream()
+                    .map(BlockEntity::getPos).collect(Collectors.toCollection(HashSet::new));
+            DimGraph dimGraph = new DimGraph(cbeSet);
+            dimGraph.buildExistedSubGraphs(world);
+            wireMap.put(world,dimGraph);
         }
     }
 
-    //添加连接器
-    public static void addConnector(ConnectorBlockEntity cbe, World world){
-        if(wireMap.stream().anyMatch(g -> g.getDim().equals(world))){
-            wireMap.stream()
-                    .filter(g -> g.getDim().equals(world))
-                    .forEach(g -> g.add(cbe));
-            update(world);
-        }else{
+    public static DimGraph getDimGraphByWorld(World world){
+        if(!wireMap.containsKey(world)){
             loadWorld(world);
         }
-    }
-
-    //获得当前维度的连接器Map
-    public static DimGraph getWorld(World world) throws DuplicateGraphException {
-        List<DimGraph> list = wireMap.stream()
-                .filter(dimGraph -> dimGraph.getDim().equals(world))
-                .collect(Collectors.toList());
-        if(list.size() == 0){
-            loadWorld(world);
-            return wireMap.stream()
-                    .filter(dimGraph -> dimGraph.getDim().equals(world))
-                    .collect(Collectors.toList()).get(0);
-        }
-        if(list.size() > 1){
-            throw new DuplicateGraphException();
-        }
-        return list.get(0);
-    }
-
-    public static void update(World world){
-        try {
-            getWorld(world).refresh();
-        } catch (DuplicateGraphException e) {
-            throw new RuntimeException(e);
-        }
+        return wireMap.get(world);
     }
 }

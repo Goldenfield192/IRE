@@ -33,30 +33,8 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-Error downloading asset (try 1) : icons/icon_32x32.png
 	at java.lang.Thread.run(Thread.java:750)
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 1) : minecraft/icons/icon_32x32.png
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 1) : icons/icon_16x16.png
+Error downloading asset (try 1) : minecraft/icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -67,7 +45,7 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 1) : minecraft/icons/icon_16x16.png
+Error downloading asset (try 1) : icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -89,7 +67,7 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 2) : minecraft/icons/icon_32x32.png
+Error downloading asset (try 1) : icons/icon_32x32.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -100,41 +78,8 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 2) : icons/icon_32x32.png
+Error downloading asset (try 1) : minecraft/icons/icon_32x32.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 2) : icons/icon_16x16.png
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 2) : minecraft/icons/icon_16x16.png
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 2) : icons/minecraft.icns
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
 	at java.net.URL.openStream(URL.java:1092)
@@ -155,9 +100,18 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-
-Current status: 1299/1305   99%
-Error downloading asset (try 3) : minecraft/icons/icon_32x32.png
+Error downloading asset (try 2) : minecraft/icons/icon_16x16.png
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 2) : icons/icon_32x32.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -168,7 +122,18 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 3) : icons/icon_16x16.png
+Error downloading asset (try 2) : icons/minecraft.icns
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 2) : icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -179,8 +144,32 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 2) : minecraft/icons/icon_32x32.png
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Current status: 1299/1305   99%
 Error downloading asset (try 3) : minecraft/icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 3) : minecraft/icons/minecraft.icns
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
 	at java.net.URL.openStream(URL.java:1092)
@@ -212,18 +201,7 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 3) : minecraft/icons/minecraft.icns
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 4) : icons/icon_16x16.png
+Error downloading asset (try 3) : icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -234,8 +212,7 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 4) : minecraft/icons/icon_32x32.png
-Error downloading asset (try 4) : minecraft/icons/icon_16x16.png
+Error downloading asset (try 3) : minecraft/icons/icon_32x32.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -246,7 +223,19 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 4) : minecraft/icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 4) : minecraft/icons/minecraft.icns
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
 	at java.net.URL.openStream(URL.java:1092)
@@ -278,18 +267,7 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 4) : minecraft/icons/minecraft.icns
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 5) : icons/icon_16x16.png
+Error downloading asset (try 4) : icons/icon_16x16.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
@@ -300,19 +278,8 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 5) : minecraft/icons/icon_32x32.png
+Error downloading asset (try 4) : minecraft/icons/icon_32x32.png
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 5) : icons/minecraft.icns
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
 	at java.net.URL.openStream(URL.java:1092)
@@ -333,17 +300,6 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-Error downloading asset (try 5) : icons/icon_32x32.png
-java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
-	at java.net.URL.openStream(URL.java:1092)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
-	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
 Error downloading asset (try 5) : minecraft/icons/minecraft.icns
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
@@ -355,56 +311,119 @@ java.io.IOException: Server returned HTTP response code: 400 for URL: http://res
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 5) : icons/icon_32x32.png
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Error downloading asset (try 5) : minecraft/icons/icon_32x32.png
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/af/af96f55a90eaf11b327f1b5f8834a051027dc506
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Current status: 1303/1305   99%
+Error downloading asset (try 5) : icons/icon_16x16.png
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://resources.download.minecraft.net/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Current status: 1304/1305   99%
+Error downloading asset (try 5) : icons/minecraft.icns
+java.io.IOException: Server returned HTTP response code: 503 for URL: http://resources.download.minecraft.net/f0/f00657542252858a721e715a2e888a9226404e35
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1914)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+	at java.net.URL.openStream(URL.java:1092)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:189)
+	at net.minecraftforge.gradle.tasks.DownloadAssetsTask$GetAssetTask.call(DownloadAssetsTask.java:150)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
 :makeStart
 :runClient
-[19:38:25] [main/INFO] [GradleStart]: Extra: []
-[19:38:25] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, D:/cache/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[19:38:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:38:25] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:38:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:38:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:38:25] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[19:38:25] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_371, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk-1.8\jre
-[19:38:25] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[19:38:25] [main/ERROR] [FML]: Full: D:\cache\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[19:38:25] [main/ERROR] [FML]: Trimmed: d:/cache/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[19:38:25] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[19:38:25] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-2024-03-10 19:38:26,587 main WARN Disabling terminal, you're running in an unsupported environment.
-[19:38:26] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[19:38:26] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[19:38:26] [main/INFO] [FML]: Searching D:\JavaStudy\UMCDev\run\.\mods for mods
-[19:38:26] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[19:38:26] [main/WARN] [FML]: The coremod IELoadingPlugin (blusunrize.immersiveengineering.common.asm.IELoadingPlugin) is not signed!
-[19:38:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:38:26] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[19:38:26] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[19:38:26] [main/INFO] [GradleStart]: Injecting location in coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin
-[19:38:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:38:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:38:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:38:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:38:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:38:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:38:27] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[19:38:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:38:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:38:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:38:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:38:27] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[19:38:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:38:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:38:27] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[19:38:27] [Client thread/INFO] [minecraft/Minecraft]: Setting user: Player72
-[19:38:28] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
-[19:38:28] [Client thread/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
-[19:38:29] [Client thread/INFO] [FML]: -- System Details --
+[19:24:07] [main/INFO] [GradleStart]: Extra: []
+[19:24:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, D:/cache/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:24:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:24:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:24:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:24:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:24:07] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[19:24:07] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_371, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk-1.8\jre
+[19:24:07] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[19:24:07] [main/ERROR] [FML]: Full: D:\cache\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[19:24:07] [main/ERROR] [FML]: Trimmed: d:/cache/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[19:24:08] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:24:08] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2024-03-11 19:24:08,729 main WARN Disabling terminal, you're running in an unsupported environment.
+[19:24:08] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[19:24:08] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[19:24:08] [main/INFO] [FML]: Searching D:\JavaStudy\UMCDev\run\.\mods for mods
+[19:24:08] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:24:08] [main/WARN] [FML]: The coremod IELoadingPlugin (blusunrize.immersiveengineering.common.asm.IELoadingPlugin) is not signed!
+[19:24:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:24:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[19:24:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[19:24:08] [main/INFO] [GradleStart]: Injecting location in coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin
+[19:24:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:24:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:24:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:24:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:24:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:24:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:24:09] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:24:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:24:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:24:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:24:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:24:09] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[19:24:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:24:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:24:09] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:24:09] [Client thread/INFO] [minecraft/Minecraft]: Setting user: Player280
+[19:24:11] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[19:24:11] [Client thread/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[19:24:11] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_371, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 176078776 bytes (167 MB) / 565182464 bytes (539 MB) up to 5559025664 bytes (5301 MB)
+	Memory: 162529960 bytes (155 MB) / 566231040 bytes (540 MB) up to 5559025664 bytes (5301 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
@@ -412,20 +431,20 @@ Details:
 IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
   blusunrize.immersiveengineering.common.asm.IEClassTransformer
 	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14800 Compatibility Profile Context 22.6.1 30.0.21023.1015' Renderer: 'AMD Radeon(TM) Graphics'
-[19:38:29] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[19:38:29] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:38:29] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[19:38:29] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[19:38:29] [Client thread/INFO] [FML]: Searching D:\JavaStudy\UMCDev\run\.\mods for mods
-[19:38:30] [Client thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
-[19:38:30] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, universalmodcore, immersiverailroading, trackapi, ir_extension, immersiveengineering] at CLIENT
-[19:38:30] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, universalmodcore, immersiverailroading, trackapi, ir_extension, immersiveengineering] at SERVER
-[19:38:30] [Client thread/INFO] [STDOUT]: [cam72cam.mod.ModCore:<init>:66]: Welcome to UniversalModCore!
-[19:38:31] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 111835600 nanos
-[19:38:31] [Client thread/ERROR] [FML]: The mod immersiveengineering is expecting signature 4cb49fcde3b43048c9889e0a3d083225da926334 for source ImmersiveEngineering-0.12-92.jar, however there is no signature matching that description
-[19:38:32] [Client thread/INFO] [STDOUT]: [blusunrize.immersiveengineering.ImmersiveEngineering:wrongSignature:175]: [Immersive Engineering/Error] THIS IS NOT AN OFFICIAL BUILD OF IMMERSIVE ENGINEERING! Found these fingerprints: []
-[19:38:32] [Client thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, IRE-1.12.2-forge-0.0.1-.jar, ImmersiveRailroading-1.12.2-forge-1.10.0-6bbbde9.jar, UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UniversalModCore, FMLFileResourcePack:Immersive Railroading, FMLFileResourcePack:Track API, FMLFileResourcePack:IRE, FMLFileResourcePack:Immersive Engineering, UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar, ImmersiveRailroading-1.12.2-forge-1.10.0-6bbbde9.jar, IRE-1.12.2-forge-0.0.1-.jar
-[19:38:32] [Client thread/WARN] [minecraft/LanguageManager]: Unable to parse language metadata section of resourcepack: UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar
+[19:24:11] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[19:24:11] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:24:11] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[19:24:11] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[19:24:12] [Client thread/INFO] [FML]: Searching D:\JavaStudy\UMCDev\run\.\mods for mods
+[19:24:12] [Client thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[19:24:13] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, universalmodcore, immersiverailroading, trackapi, ir_extension, immersiveengineering] at CLIENT
+[19:24:13] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, universalmodcore, immersiverailroading, trackapi, ir_extension, immersiveengineering] at SERVER
+[19:24:13] [Client thread/INFO] [STDOUT]: [cam72cam.mod.ModCore:<init>:66]: Welcome to UniversalModCore!
+[19:24:13] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 123092606 nanos
+[19:24:13] [Client thread/ERROR] [FML]: The mod immersiveengineering is expecting signature 4cb49fcde3b43048c9889e0a3d083225da926334 for source ImmersiveEngineering-0.12-92.jar, however there is no signature matching that description
+[19:24:15] [Client thread/INFO] [STDOUT]: [blusunrize.immersiveengineering.ImmersiveEngineering:wrongSignature:175]: [Immersive Engineering/Error] THIS IS NOT AN OFFICIAL BUILD OF IMMERSIVE ENGINEERING! Found these fingerprints: []
+[19:24:15] [Client thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, IRE-1.12.2-forge-0.0.1-b0dffda.jar, ImmersiveRailroading-1.12.2-forge-1.10.0-6bbbde9.jar, UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UniversalModCore, FMLFileResourcePack:Immersive Railroading, FMLFileResourcePack:Track API, FMLFileResourcePack:IRE, FMLFileResourcePack:Immersive Engineering, UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar, ImmersiveRailroading-1.12.2-forge-1.10.0-6bbbde9.jar, IRE-1.12.2-forge-0.0.1-b0dffda.jar
+[19:24:15] [Client thread/WARN] [minecraft/LanguageManager]: Unable to parse language metadata section of resourcepack: UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar
 net.minecraft.client.resources.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'D:\cache\.gradle\caches\modules-2\files-2.1\cam72cam.universalmodcore\UniversalModCore\1.12.2-forge-1.2.1-43860b4\e78420adc0e7a1c7a2c2c54cafe7e5c8acb8919d\UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar'
 	at net.minecraft.client.resources.FileResourcePack.getInputStreamByName(FileResourcePack.java:47) ~[FileResourcePack.class:?]
 	at cam72cam.mod.ModCore$ClientProxy$2.getInputStreamByName(ModCore.java:221) ~[ModCore$ClientProxy$2.class:?]
@@ -448,7 +467,7 @@ net.minecraft.client.resources.ResourcePackFileNotFoundException: 'pack.mcmeta' 
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_371]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-[19:38:32] [Client thread/WARN] [minecraft/LanguageManager]: Unable to parse language metadata section of resourcepack: UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar
+[19:24:15] [Client thread/WARN] [minecraft/LanguageManager]: Unable to parse language metadata section of resourcepack: UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar
 net.minecraft.client.resources.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'D:\cache\.gradle\caches\modules-2\files-2.1\cam72cam.universalmodcore\UniversalModCore\1.12.2-forge-1.2.1-43860b4\e78420adc0e7a1c7a2c2c54cafe7e5c8acb8919d\UniversalModCore-1.12.2-forge-1.2.1-43860b4.jar'
 	at net.minecraft.client.resources.FileResourcePack.getInputStreamByName(FileResourcePack.java:47) ~[FileResourcePack.class:?]
 	at cam72cam.mod.ModCore$ClientProxy$2.getInputStreamByName(ModCore.java:221) ~[ModCore$ClientProxy$2.class:?]
@@ -471,369 +490,262 @@ net.minecraft.client.resources.ResourcePackFileNotFoundException: 'pack.mcmeta' 
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_371]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-[19:38:32] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:38:32] [Client thread/INFO] [FML]: Found 1170 ObjectHolder annotations
-[19:38:32] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:38:32] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:38:32] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:38:32] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:38:32] [Client thread/INFO] [universalmodcore]: Detected 5301MB of memory free
-[19:38:32] [Client thread/INFO] [universalmodcore]: Adjusted to 5301MB of memory free
-[19:38:32] [Client thread/INFO] [universalmodcore]: Using 5 threads to load Immersive Railroading (1024MB per thread)
-[19:38:32] [ImmersiveRailroading-1/INFO] [universalmodcore]: Loading stock models.
-[19:38:33] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/cooke_tender.json
-[19:38:33] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/passenger/p70coach1.json
-[19:38:33] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-2/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_c44_9cw.json
-[19:38:33] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_rail_and_tie_outfit.json
-[19:38:33] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/passenger/br_coach_mk1.json
-[19:38:33] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/waycar.json
-[19:38:33] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/k36_tender.json
-[19:38:33] [ImmersiveRailroading-4/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:33] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/skookum.json
-[19:38:33] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/freight/boxcar_x26.json
-[19:38:34] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_5500class_stockcar.json
-[19:38:34] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/skookum_tender.json
-[19:38:34] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/tank/slag_car_1.json
-[19:38:34] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/br01_tender.json
-[19:38:34] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/passenger/b70baggage.json
-[19:38:34] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/rodgers_460_tender.json
-[19:38:34] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/freight/attx_flatcar_1.json
-[19:38:34] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/hand_car/hand_car_1.json
-[19:38:34] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/freight/dw_gondola.json
-[19:38:34] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/br01.json
-[19:38:34] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/freight/70t_hopper_slsf.json
-[19:38:34] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/freight/usra_boxcar_classrr40.json
-[19:38:34] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/tank/kamx_t.json
-[19:38:34] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/emd_sw1500.json
-[19:38:34] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-4/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/tank/tank_us2.json
-[19:38:34] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/rodgers_460.json
-[19:38:34] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/e6_tender.json
-[19:38:34] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/e6_atlantic.json
-[19:38:34] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/russell_snow_plow.json
-[19:38:34] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/k4_tender.json
-[19:38:34] [ImmersiveRailroading-2/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:34] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/emd_sd40-2.json
-[19:38:35] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/class_38_tender.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_1000class_gondola.json
-[19:38:35] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/a5_tender.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_3000class_boxcar.json
-[19:38:35] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/a1_peppercorn_tender.json
-[19:38:35] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/big_boy_tender.json
-[19:38:35] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_b40_8.json
-[19:38:35] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/class_38.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/usra_hopper_55t.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/n5c_cabin_car.json
-[19:38:35] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_b40_8w.json
-[19:38:35] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/a5_switcher.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/prr_flatcar_1.json
-[19:38:35] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/alco_rs1.json
-[19:38:35] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_40_ton_boxcab.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/locomotives/k36.json
-[19:38:35] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/big_boy.json
-[19:38:35] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/a1_peppercorn.json
-[19:38:35] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/locomotives/firefly.json
-[19:38:35] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
-[19:38:35] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/locomotives/cooke_mogul.json
-[19:38:35] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/k4_pacific.json
-[19:38:35] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/iron_duke.json
-[19:38:35] [Client thread/INFO] [universalmodcore]: Loading tracks.
-[19:38:35] [Client thread/INFO] [universalmodcore]: default
-[19:38:35] [Client thread/INFO] [universalmodcore]: concrete
-[19:38:35] [Client thread/INFO] [universalmodcore]: railsonly
-[19:38:35] [Client thread/INFO] [universalmodcore]: default
-[19:38:35] [Client thread/INFO] [universalmodcore]: concrete
-[19:38:35] [Client thread/INFO] [universalmodcore]: railsonly
-[19:38:35] [Client thread/INFO] [universalmodcore]: default
-[19:38:35] [Client thread/INFO] [universalmodcore]: concrete
-[19:38:35] [Client thread/INFO] [universalmodcore]: railsonly
-[19:38:36] [Client thread/INFO] [FML]: OBJLoader: Domain immersiveengineering has been added.
-[19:38:36] [Client thread/INFO] [immersiveengineering]: Custom OBJLoader: Domain has been added: immersiveengineering
-[19:38:36] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering]: Attempting to download special revolvers from GitHub
-[19:38:36] [Client thread/INFO] [FML]: Applying holder lookups
-[19:38:36] [Client thread/INFO] [FML]: Holder lookups applied
-[19:38:36] [Client thread/INFO] [FML]: Applying holder lookups
-[19:38:36] [Client thread/INFO] [FML]: Holder lookups applied
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `carfreight`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `carpassenger`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `cartank`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `handcar`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `locomotivediesel`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `locomotivesteam`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `tender`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:36] [Client thread/INFO] [FML]: Applying holder lookups
-[19:38:36] [Client thread/INFO] [FML]: Holder lookups applied
-[19:38:36] [Client thread/INFO] [FML]: Applying holder lookups
-[19:38:36] [Client thread/INFO] [FML]: Holder lookups applied
-[19:38:36] [Client thread/INFO] [FML]: Injecting itemstacks
-[19:38:36] [Client thread/INFO] [FML]: Itemstack injection complete
-[19:38:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[19:38:36] [Forge Version Check/INFO] [forge.VersionCheck]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/master/changelog.json
-[19:38:37] [Forge Version Check/INFO] [forge.VersionCheck]: [immersiveengineering] Found status: UP_TO_DATE Target: null
-[19:38:38] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
-[19:38:38] [Thread-6/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
-[19:38:38] [Thread-6/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:38:38] [Thread-6/INFO] [minecraft/SoundManager]: OpenAL initialized.
-[19:38:38] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
-[19:38:40] [Client thread/INFO] [immersiveengineering]: Stitching Revolver Textures!
-[19:38:40] [Client thread/INFO] [FML]: Max texture size: 16384
-[19:38:41] [Client thread/INFO] [minecraft/TextureMap]: Created: 2048x2048 textures-atlas
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_large_wrench`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_hook`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_rail`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_manual`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_conductor_whistle`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_paint_brush`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_golden_spike`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_radio_control_card`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_switch_key`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_track_exchanger`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
-[19:38:42] [Client thread/INFO] [FML]: Applying holder lookups
-[19:38:42] [Client thread/INFO] [FML]: Holder lookups applied
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/a1_peppercorn.json_399afbcb784dae0af473ac47c5a68536_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/big_boy.json_62a96972c78598b0bd7b696a636ddf9b_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/k4_pacific.json_973a18fd408aa37bd40762a14ca44393_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/e6_atlantic.json_066493de2330105a0f6443ed714ca8a2_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/a5_switcher.json_dc457e162a4dd7f414317dd5acb36f64_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/class_38.json_2ef90d3a1cdd08f4aa10e35aae9bf675_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/rodgers_460.json_8370cdbec650f19a85bf2aa5a5b8436b_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/skookum.json_abd94db572fe6d35670d8b312426826f_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/br01.json_8d21c553dcd491e9f10e8a52f3e90a27_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/cooke_mogul.json_cb39c1ecdf90e11577b488d987d0254c_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/k36.json_dec9dd7e0abca01471b962c0d450ae2f_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/firefly.json_6b53a0ca707a6d01b94e59af6a90a9aa_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/iron_duke.json_938fc79fb0f788d4d2b6d214c8b9a99b_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_40_ton_boxcab.json_52b17c84a22699546611bf92b8a79247_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_b40_8.json_b72a54eb8a28c09031ea07fff8a07245_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_b40_8w.json_0d3317624f08c4bf212f1d367f3e7166_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_c44_9cw.json_609b3def27d1c6dbe9b0bc115e93c636_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/emd_sd40-2.json_836735bfe349de59077a41b6ae80e7a3_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/emd_sw1500.json_dcf6ae8ab78d8dca3c9dc8deeead9eee_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/alco_rs1.json_d97d7288378130be2a00611c3fe53866_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/a1_peppercorn_tender.json_f6e911736b76aa0e48ac0c01fab273d5_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/big_boy_tender.json_297783f71e08d87554d68b031f612762_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/k4_tender.json_e91d776e12b073a821e98212d657dd69_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/e6_tender.json_0b39327614141caba22c672cadf8a41c_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/a5_tender.json_37e29a8cd0caea856633224193b93bf3_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/class_38_tender.json_683b8d40f117c45c90fdcc7b54c6abaa_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/rodgers_460_tender.json_0ce321126071da1d17ca35ef99511c85_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/skookum_tender.json_8fc7e97af0d2ed9c8298ea318534b03c_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/br01_tender.json_70d04ec22fe2aecb9d84bdc7b89e0997_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/cooke_tender.json_6d87f03b927819c1783fe418bccd606d_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/k36_tender.json_77a46760cabda09b651a89695af693c8_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/passenger/br_coach_mk1.json_60512ec06aa9170a7758dea78d674ed0_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/passenger/b70baggage.json_1269c1ded7c781edcf743f2c5046812b_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/passenger/p70coach1.json_e0b7e981429c3c1a1ccf136762a77329_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/boxcar_x26.json_182fbc6699f45df0c31379de015e1484_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/usra_boxcar_classrr40.json_fabaa6b88568c18cfa6f9bd53407f0a8_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/70t_hopper_slsf.json_0ae70562e4fdc528a96707e69ba536c5_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/attx_flatcar_1.json_29c6efaf77563bb294ed4c7e6e62359d_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/dw_gondola.json_56135abbfa0278c145104c764a1b31e8_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/prr_flatcar_1.json_8c7d3115dc4c17e5d619ef6b1f55e6f9_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/usra_hopper_55t.json_43846d4675691c2f48af3dcf2c42f091_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/n5c_cabin_car.json_6223a63d0ac3cba35fcb5e2225013afa_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/russell_snow_plow.json_8b35a44410011873ce5dc47fdc58edc0_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_3000class_boxcar.json_b9afc8a84290095c498212d8061e14d3_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_1000class_gondola.json_0b63b1764f9e85bb4cf7e2a1f7f21e53_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_5500class_stockcar.json_1a10503c29f705b7090c63e57a732334_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_rail_and_tie_outfit.json_7f0e1007d24a9198a276d042abc69708_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/waycar.json_41b78243cebdeb5f5b39db77a8796f66_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tank/tank_us2.json_82c349e143d880e01ca34954b8f57934_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tank/kamx_t.json_bd8f4674c08224a7faca70e96aa0fd29_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tank/slag_car_1.json_9cc8f6c4f85c35b4912ae407d79e2035_
-[19:38:42] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/hand_car/hand_car_1.json_01eb68f59c29fef0a42e43ffcb6dbd43_
-[19:38:42] [Thread-8/INFO] [immersiveengineering]: Arc Recycling: Removed 0 old recipes
-[19:38:42] [Thread-8/INFO] [immersiveengineering]: Finished recipe profiler for Arc Recycling, took 9 milliseconds
-[19:38:42] [Client thread/INFO] [FML]: Injecting itemstacks
-[19:38:42] [Client thread/INFO] [FML]: Itemstack injection complete
-[19:38:42] [Client thread/WARN] [universalmodcore]: Removing file cache entry: D:\JavaStudy\UMCDev\run\cache\ir_extension\models.block.jiaxiangan1.obj_.14964120
-[19:38:42] [Client thread/WARN] [universalmodcore]: Removing file cache entry: D:\JavaStudy\UMCDev\run\cache\ir_extension\models.block.wire.obj_.14964120
-[19:38:42] [Client thread/INFO] [immersiveengineering]: Couldn't fully analyze 1xtile.immersiveengineering.metal_device1@10, missing knowledge for {1xtile.immersiveengineering.metal_device0@4=1.0}
-[19:38:42] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
-[19:38:42] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
-[19:38:42] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
-[19:38:43] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[19:39:16] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[19:39:16] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
-[19:39:16] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[19:39:16] [Server thread/INFO] [FML]: Applying holder lookups
-[19:39:16] [Server thread/INFO] [FML]: Holder lookups applied
-[19:39:17] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2cc71498)
-[19:39:17] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 517 advancements
-[19:39:17] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2cc71498)
-[19:39:17] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2cc71498)
-[19:39:17] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
-[19:39:17] [Server thread/INFO] [immersiveengineering]: WorldData loading
-[19:39:17] [Server thread/INFO] [immersiveengineering]: WorldData retrieved
-[19:39:17] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:39:17] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:39:17] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
-[19:39:19] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[19:39:19] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[19:39:19] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,FML@8.0.99.99,trackapi@1.2,forge@14.23.5.2847,immersiveengineering@0.12-92,mcp@9.42,ir_extension@0.0.1,immersiverailroading@1.10.0,universalmodcore@1.2.1
-[19:39:19] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[19:39:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:39:19] [Server thread/INFO] [minecraft/PlayerList]: Player72[local:E:19844c17] logged in with entity id 124 at (-883.5399161664722, 5.0, 1676.0204035090617)
-[19:39:19] [Server thread/INFO] [minecraft/MinecraftServer]: Player72 joined the game
-[19:39:20] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
-[19:39:20] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
-[19:39:20] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 2 advancements
-[19:39:20] [Client thread/WARN] [universalmodcore]: Adding entity that was not wrapped correctly ae44171f-eee5-3760-be7d-ed3ffafd8795 - EntityPlayerSP['Player72'/124, l='MpServer', x=-883.54, y=5.00, z=1676.02]
-4
-[19:39:22] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:22] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:22] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-4
-[19:39:22] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:22] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:22] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:22] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:39:22] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:39:23] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:23] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:23] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:23] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:23] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:39:23] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:39:24] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:24] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:24] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:24] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6bae988f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:24] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:39:24] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:39:24] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:25] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:25] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:39:25] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:25] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@38f03b4b]
-[19:39:25] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:39:25] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:39:26] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5ca5e41]
-[19:39:27] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@61eb083f]
-[19:39:27] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: []
-[19:39:32] [Client thread/WARN] [universalmodcore]: Adding entity that was not wrapped correctly 7e792fac-73bb-4e12-84d1-b65f41ecc734 - EntitySlime['Slime'/71, l='MpServer', x=-890.59, y=5.02, z=1754.23]
-[19:41:16] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:16] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:16] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:16] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:16] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 1
-[19:41:16] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 1
-[19:41:20] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:20] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] First point set: (-882, 4, 1672)
-[19:41:20] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:20] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:41:20] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:41:20] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] First point set: (-882, 4, 1672)
-[19:41:23] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:23] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:23] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:23] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:23] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:41:23] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:41:23] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:23] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:23] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:23] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:23] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:23] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:24] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:24] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Linked
-[19:41:24] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:24] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:24] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:24] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:24] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:41:24] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] First point set: (-883, 4, 1672)
-[19:41:26] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:26] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Linked
-[19:41:26] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:26] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:26] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:26] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:26] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:41:26] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] First point set: (-884, 4, 1672)
-[19:41:27] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:27] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Linked
-[19:41:27] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:27] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe]
-[19:41:27] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a]
-[19:41:27] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:27] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 1
-[19:41:27] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] First point set: (-885, 4, 1672)
-[19:41:31] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:31] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:31] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:31] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:31] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 5
-[19:41:31] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:41:33] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:33] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Linked
-[19:41:33] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:33] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:33] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@6280923a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:33] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 5
-[19:41:33] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 1
-[19:41:33] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] First point set: (-880, 4, 1675)
-[19:41:36] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:37] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:37] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:37] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:37] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:37] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:37] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:41:40] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:40] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:40] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:40] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5cdb0a2d, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:40] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 4
-[19:41:40] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 2
-[19:41:40] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
-[19:41:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
-[19:41:44] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:45] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:45] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:41:45] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:45] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:41:45] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:41:45] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:41:47] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
-[19:41:47] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
-[19:44:04] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:44:04] [Client thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4d98a438, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@41f35bb2, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@d49a04a, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@5602e9d7, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ecf479, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@48305209, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4f191143, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@4ca3fdfe, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@53ef97d2]
-[19:44:04] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:44:04] [Server thread/INFO] [STDOUT]: [com.goldenfield192.ire.util.graph.DimGraph:refresh:54]: [com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@2149f948, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@65312a93, com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity@69a11c2e]
-[19:44:04] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:44:04] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] 3
-[19:44:05] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
-[19:44:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
-[19:44:06] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
-[19:44:06] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
-[19:44:06] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
-[19:44:06] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
-[19:44:06] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
-[19:44:06] [Server thread/INFO] [FML]: Unloading dimension 0
-[19:44:06] [Server thread/INFO] [FML]: Applying holder lookups
-[19:44:06] [Server thread/INFO] [FML]: Holder lookups applied
-[19:44:06] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
-[19:44:06] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+[19:24:15] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:24:15] [Client thread/INFO] [FML]: Found 1170 ObjectHolder annotations
+[19:24:15] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:24:15] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:24:15] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:24:15] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:24:15] [Client thread/INFO] [universalmodcore]: Detected 5301MB of memory free
+[19:24:15] [Client thread/INFO] [universalmodcore]: Adjusted to 5301MB of memory free
+[19:24:15] [Client thread/INFO] [universalmodcore]: Using 5 threads to load Immersive Railroading (1024MB per thread)
+[19:24:15] [ImmersiveRailroading-1/INFO] [universalmodcore]: Loading stock models.
+[19:24:15] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/cooke_tender.json
+[19:24:16] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/passenger/p70coach1.json
+[19:24:16] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_rail_and_tie_outfit.json
+[19:24:16] [ImmersiveRailroading-2/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_c44_9cw.json
+[19:24:16] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/waycar.json
+[19:24:16] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/passenger/br_coach_mk1.json
+[19:24:16] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/k36_tender.json
+[19:24:16] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/freight/boxcar_x26.json
+[19:24:16] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-4/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:16] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_5500class_stockcar.json
+[19:24:16] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/skookum.json
+[19:24:16] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/skookum_tender.json
+[19:24:17] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/tank/slag_car_1.json
+[19:24:17] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/passenger/b70baggage.json
+[19:24:17] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/br01_tender.json
+[19:24:17] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/freight/attx_flatcar_1.json
+[19:24:17] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/tender/rodgers_460_tender.json
+[19:24:17] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/hand_car/hand_car_1.json
+[19:24:17] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/freight/dw_gondola.json
+[19:24:17] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/freight/70t_hopper_slsf.json
+[19:24:17] [ImmersiveRailroading-4/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/br01.json
+[19:24:17] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/tank/kamx_t.json
+[19:24:17] [ImmersiveRailroading-2/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-5/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:17] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/emd_sw1500.json
+[19:24:18] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/freight/usra_boxcar_classrr40.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/tank/tank_us2.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/russell_snow_plow.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/rodgers_460.json
+[19:24:18] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/e6_atlantic.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/e6_tender.json
+[19:24:18] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/emd_sd40-2.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/k4_tender.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_1000class_gondola.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/class_38_tender.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/drgw_3000class_boxcar.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/a5_tender.json
+[19:24:18] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/class_38.json
+[19:24:18] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_b40_8.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/a1_peppercorn_tender.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/usra_hopper_55t.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/tender/big_boy_tender.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/n5c_cabin_car.json
+[19:24:18] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_b40_8w.json
+[19:24:18] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/a5_switcher.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/freight/prr_flatcar_1.json
+[19:24:18] [ImmersiveRailroading-2/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:18] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/ge_40_ton_boxcab.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/alco_rs1.json
+[19:24:18] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/big_boy.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/locomotives/k36.json
+[19:24:18] [ImmersiveRailroading-5/INFO] [universalmodcore]: rolling_stock/locomotives/firefly.json
+[19:24:18] [ImmersiveRailroading-2/INFO] [universalmodcore]: rolling_stock/locomotives/a1_peppercorn.json
+[19:24:18] [ImmersiveRailroading-3/INFO] [universalmodcore]: rolling_stock/locomotives/cooke_mogul.json
+[19:24:18] [ImmersiveRailroading-4/INFO] [universalmodcore]: rolling_stock/locomotives/k4_pacific.json
+[19:24:18] [ImmersiveRailroading-1/INFO] [STDOUT]: [cam72cam.immersiverailroading.registry.DefinitionManager:lambda$initModels$4:240]: GC
+[19:24:18] [ImmersiveRailroading-1/INFO] [universalmodcore]: rolling_stock/locomotives/iron_duke.json
+[19:24:18] [Client thread/INFO] [universalmodcore]: Loading tracks.
+[19:24:18] [Client thread/INFO] [universalmodcore]: default
+[19:24:18] [Client thread/INFO] [universalmodcore]: concrete
+[19:24:18] [Client thread/INFO] [universalmodcore]: railsonly
+[19:24:18] [Client thread/INFO] [universalmodcore]: default
+[19:24:18] [Client thread/INFO] [universalmodcore]: concrete
+[19:24:18] [Client thread/INFO] [universalmodcore]: railsonly
+[19:24:18] [Client thread/INFO] [universalmodcore]: default
+[19:24:18] [Client thread/INFO] [universalmodcore]: concrete
+[19:24:18] [Client thread/INFO] [universalmodcore]: railsonly
+[19:24:19] [Client thread/INFO] [FML]: OBJLoader: Domain immersiveengineering has been added.
+[19:24:19] [Client thread/INFO] [immersiveengineering]: Custom OBJLoader: Domain has been added: immersiveengineering
+[19:24:19] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering]: Attempting to download special revolvers from GitHub
+[19:24:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:24:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:24:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:24:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:24:19] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[19:24:19] [Forge Version Check/INFO] [forge.VersionCheck]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/master/changelog.json
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `carfreight`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `carpassenger`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `cartank`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `handcar`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `locomotivediesel`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `locomotivesteam`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `tender`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:24:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:24:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:24:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:24:19] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:24:19] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:24:20] [Forge Version Check/INFO] [forge.VersionCheck]: [immersiveengineering] Found status: UP_TO_DATE Target: null
+[19:24:21] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[19:24:21] [Thread-6/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[19:24:21] [Thread-6/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:24:21] [Thread-6/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[19:24:21] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[19:24:23] [Client thread/INFO] [immersiveengineering]: Stitching Revolver Textures!
+[19:24:23] [Client thread/INFO] [FML]: Max texture size: 16384
+[19:24:24] [Client thread/INFO] [minecraft/TextureMap]: Created: 2048x2048 textures-atlas
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_large_wrench`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_hook`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_rail`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_manual`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_conductor_whistle`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_paint_brush`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_golden_spike`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_radio_control_card`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_switch_key`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `immersiverailroading` for name `item_track_exchanger`, expected `universalmodcore`. This could be a intended override, but in most cases indicates a broken mod.
+[19:24:25] [Client thread/INFO] [FML]: Applying holder lookups
+[19:24:25] [Client thread/INFO] [FML]: Holder lookups applied
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/a1_peppercorn.json_399afbcb784dae0af473ac47c5a68536_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/big_boy.json_62a96972c78598b0bd7b696a636ddf9b_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/k4_pacific.json_973a18fd408aa37bd40762a14ca44393_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/e6_atlantic.json_066493de2330105a0f6443ed714ca8a2_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/a5_switcher.json_dc457e162a4dd7f414317dd5acb36f64_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/class_38.json_2ef90d3a1cdd08f4aa10e35aae9bf675_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/rodgers_460.json_8370cdbec650f19a85bf2aa5a5b8436b_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/skookum.json_abd94db572fe6d35670d8b312426826f_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/br01.json_8d21c553dcd491e9f10e8a52f3e90a27_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/cooke_mogul.json_cb39c1ecdf90e11577b488d987d0254c_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/k36.json_dec9dd7e0abca01471b962c0d450ae2f_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/firefly.json_6b53a0ca707a6d01b94e59af6a90a9aa_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/iron_duke.json_938fc79fb0f788d4d2b6d214c8b9a99b_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_40_ton_boxcab.json_52b17c84a22699546611bf92b8a79247_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_b40_8.json_b72a54eb8a28c09031ea07fff8a07245_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_b40_8w.json_0d3317624f08c4bf212f1d367f3e7166_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/ge_c44_9cw.json_609b3def27d1c6dbe9b0bc115e93c636_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/emd_sd40-2.json_836735bfe349de59077a41b6ae80e7a3_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/emd_sw1500.json_dcf6ae8ab78d8dca3c9dc8deeead9eee_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/locomotives/alco_rs1.json_d97d7288378130be2a00611c3fe53866_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/a1_peppercorn_tender.json_f6e911736b76aa0e48ac0c01fab273d5_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/big_boy_tender.json_297783f71e08d87554d68b031f612762_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/k4_tender.json_e91d776e12b073a821e98212d657dd69_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/e6_tender.json_0b39327614141caba22c672cadf8a41c_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/a5_tender.json_37e29a8cd0caea856633224193b93bf3_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/class_38_tender.json_683b8d40f117c45c90fdcc7b54c6abaa_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/rodgers_460_tender.json_0ce321126071da1d17ca35ef99511c85_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/skookum_tender.json_8fc7e97af0d2ed9c8298ea318534b03c_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/br01_tender.json_70d04ec22fe2aecb9d84bdc7b89e0997_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/cooke_tender.json_6d87f03b927819c1783fe418bccd606d_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tender/k36_tender.json_77a46760cabda09b651a89695af693c8_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/passenger/br_coach_mk1.json_60512ec06aa9170a7758dea78d674ed0_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/passenger/b70baggage.json_1269c1ded7c781edcf743f2c5046812b_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/passenger/p70coach1.json_e0b7e981429c3c1a1ccf136762a77329_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/boxcar_x26.json_182fbc6699f45df0c31379de015e1484_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/usra_boxcar_classrr40.json_fabaa6b88568c18cfa6f9bd53407f0a8_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/70t_hopper_slsf.json_0ae70562e4fdc528a96707e69ba536c5_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/attx_flatcar_1.json_29c6efaf77563bb294ed4c7e6e62359d_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/dw_gondola.json_56135abbfa0278c145104c764a1b31e8_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/prr_flatcar_1.json_8c7d3115dc4c17e5d619ef6b1f55e6f9_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/usra_hopper_55t.json_43846d4675691c2f48af3dcf2c42f091_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/n5c_cabin_car.json_6223a63d0ac3cba35fcb5e2225013afa_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/russell_snow_plow.json_8b35a44410011873ce5dc47fdc58edc0_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_3000class_boxcar.json_b9afc8a84290095c498212d8061e14d3_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_1000class_gondola.json_0b63b1764f9e85bb4cf7e2a1f7f21e53_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_5500class_stockcar.json_1a10503c29f705b7090c63e57a732334_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/drgw_rail_and_tie_outfit.json_7f0e1007d24a9198a276d042abc69708_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/freight/waycar.json_41b78243cebdeb5f5b39db77a8796f66_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tank/tank_us2.json_82c349e143d880e01ca34954b8f57934_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tank/kamx_t.json_bd8f4674c08224a7faca70e96aa0fd29_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/tank/slag_car_1.json_9cc8f6c4f85c35b4912ae407d79e2035_
+[19:24:25] [Client thread/INFO] [universalmodcore]: immersiverailroading:rolling_stock/hand_car/hand_car_1.json_01eb68f59c29fef0a42e43ffcb6dbd43_
+[19:24:25] [Thread-8/INFO] [immersiveengineering]: Arc Recycling: Removed 0 old recipes
+[19:24:25] [Thread-8/INFO] [immersiveengineering]: Finished recipe profiler for Arc Recycling, took 11 milliseconds
+[19:24:25] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:24:25] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:24:25] [Client thread/WARN] [universalmodcore]: Removing file cache entry: D:\JavaStudy\UMCDev\run\cache\ir_extension\models.block.jiaxiangan1.obj_.14964120
+[19:24:25] [Client thread/WARN] [universalmodcore]: Removing file cache entry: D:\JavaStudy\UMCDev\run\cache\ir_extension\models.block.wire.obj_.14964120
+[19:24:25] [Client thread/INFO] [immersiveengineering]: Couldn't fully analyze 1xtile.immersiveengineering.metal_device1@10, missing knowledge for {1xtile.immersiveengineering.metal_device0@4=1.0}
+[19:24:26] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[19:24:26] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[19:24:26] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[19:24:26] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[19:24:35] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[19:24:35] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[19:24:35] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:24:35] [Server thread/INFO] [FML]: Applying holder lookups
+[19:24:35] [Server thread/INFO] [FML]: Holder lookups applied
+[19:24:35] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@19a6a8aa)
+[19:24:35] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 517 advancements
+[19:24:35] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@19a6a8aa)
+[19:24:35] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@19a6a8aa)
+[19:24:35] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[19:24:36] [Server thread/INFO] [immersiveengineering]: WorldData loading
+[19:24:36] [Server thread/INFO] [immersiveengineering]: WorldData retrieved
+[19:24:36] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:24:36] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:24:36] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[19:24:37] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[19:24:37] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[19:24:37] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,FML@8.0.99.99,trackapi@1.2,forge@14.23.5.2847,immersiveengineering@0.12-92,mcp@9.42,ir_extension@0.0.1,immersiverailroading@1.10.0,universalmodcore@1.2.1
+[19:24:37] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[19:24:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:24:37] [Server thread/INFO] [minecraft/PlayerList]: Player280[local:E:3b2094bc] logged in with entity id 119 at (-2101.760006094097, 4.0, -1039.5847966711638)
+[19:24:37] [Server thread/INFO] [minecraft/MinecraftServer]: Player280 joined the game
+[19:24:38] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[19:24:38] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:24:38] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 2 advancements
+[19:24:38] [Client thread/WARN] [universalmodcore]: Adding entity that was not wrapped correctly c71f5be7-d736-3c74-8462-9246a49acdfd - EntityPlayerSP['Player280'/119, l='MpServer', x=-2101.76, y=4.00, z=-1039.58]
+0
+0
+0
+0
+0
+0
+0
+0
+[19:24:49] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[19:24:49] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+0
+0
+[19:25:05] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[19:25:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:25:07] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
+[19:25:07] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[19:25:07] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[19:25:07] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[19:25:07] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:25:07] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:25:07] [Server thread/INFO] [FML]: Applying holder lookups
+[19:25:07] [Server thread/INFO] [FML]: Holder lookups applied
+[19:25:07] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[19:25:07] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
 
 BUILD SUCCESSFUL
 
-Total time: 5 mins 48.552 secs
+Total time: 1 mins 26.26 secs

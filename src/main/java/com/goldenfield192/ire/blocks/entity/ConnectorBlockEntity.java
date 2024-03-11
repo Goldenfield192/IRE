@@ -10,16 +10,17 @@ import cam72cam.mod.item.ItemStack;
 import cam72cam.mod.math.Vec3d;
 import cam72cam.mod.math.Vec3i;
 import cam72cam.mod.serialization.*;
+import cam72cam.mod.text.PlayerMessage;
 import cam72cam.mod.util.Facing;
+import cam72cam.mod.world.World;
 import com.goldenfield192.ire.init.ItemsInit;
 import com.goldenfield192.ire.serializer.MapVec3iBooleanMapper;
+import com.goldenfield192.ire.util.graph.DimGraph;
 import com.goldenfield192.ire.util.graph.DuplicateGraphException;
 import com.goldenfield192.ire.util.graph.GraphHandler;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 
 import java.util.*;
-
-import static com.goldenfield192.ire.util.graph.GraphHandler.addConnector;
 
 //邻接表
 public class ConnectorBlockEntity extends BlockEntityTickable {
@@ -29,15 +30,12 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
     @TagField("offset")
     public Vec3d inBlockOffset;
 
-    @TagField("this")
-    public UUID uuid;
+    public UUID getSubGraphID() {
+        return subGraphID;
+    }
 
-    @TagField("energy")
-    @TagSync
-    private Energy energy = new Energy(0,5000);
-
-    //连通分量编号
-    public int subGraphID;
+    @TagField("subGraphID")
+    private UUID subGraphID;
 
     public HashMap<Vec3i, Boolean> getConnection() {
         return connection;
@@ -47,8 +45,6 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
         this.connection = connection;
     }
 
-    //TODO 如果启用现有图系统就不能正常序列化connection，怎么回事呢
-    //Solution 用getter
     @TagField(value = "connect", mapper = MapVec3iBooleanMapper.class)//存相对方块位置
     @TagSync
     private HashMap<Vec3i, Boolean> connection = new HashMap<>();
@@ -76,12 +72,11 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
                 rotation = 90;
         }
         inBlockOffset = new Vec3d(0,0.74,1.13);
-        uuid = UUID.randomUUID();
+        subGraphID = UUID.randomUUID();
         try {
             TagCompound tc = new TagCompound()
                     .setInteger("rotation", rotation)
-                    .setVec3d("offset",inBlockOffset)
-                    .setUUID("this",uuid);
+                    .setVec3d("offset",inBlockOffset);
             save(tc);
         }catch (SerializationException ignore){}
     }
@@ -93,16 +88,15 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
 
     @Override
     public boolean onClick(Player player, Player.Hand hand, Facing facing, Vec3d hit) {
-        GraphHandler.loadWorld(getWorld());
-        addConnector(this,this.getWorld());
-        if(getWorld().isServer && hand == Player.Hand.PRIMARY){
-            try {
-                GraphHandler.getWorld(getWorld()).printContain(player, this, player.isCrouching());
-            } catch (DuplicateGraphException e) {
-                throw new RuntimeException(e);
-            }
+        if(getWorld().isServer){
+//            player.sendMessage(PlayerMessage.direct(String.valueOf(
+//                    GraphHandler.getDimGraphByWorld(getWorld()).getGraphInDim().values()
+//            )));
+//            player.sendMessage(PlayerMessage.direct(String.valueOf(
+//                    this.subGraphID
+//            )));
         }
-        return super.onClick(player, hand, facing, hit);
+        return true;
     }
 
     @Override
@@ -118,16 +112,17 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
             getWorld().dropItem(onPick(), getPos());
         }
         removeWire();
-        try {
-            GraphHandler.getWorld(getWorld()).remove(this);
-            GraphHandler.update(getWorld());
-        } catch (DuplicateGraphException e) {
-            throw new RuntimeException(e);
-        }
+        GraphHandler.getDimGraphByWorld(getWorld()).remove(this.subGraphID,this.getPos());
     }
 
     @Override
     public void update() {
+        if(getWorld().isServer){
+            DimGraph dimGraph = GraphHandler.getDimGraphByWorld(getWorld());
+            if (!dimGraph.getGraphInDim().containsKey(this.subGraphID)) {
+                dimGraph.addSubGraph(this.getPos(), this.subGraphID);
+            }
+        }
     }
 
     @Override
@@ -146,11 +141,14 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
     }
 
     public void addWire(boolean isFirst,Vec3i relativeTarget){
+        if(this.connection.size() == 0){
+            this.subGraphID  = getWorld().getBlockEntity(this.getPos().add(relativeTarget),ConnectorBlockEntity.class)
+                                .subGraphID;
+        }
         this.connection.put(relativeTarget,isFirst);
         if(isFirst){
             //vecToBlocks(this,getWorld().getBlockEntity(this.getPos().add(relativeTarget), ConnectorBlockEntity.class), BlocksInit.BATTERY_BLOCK);
         }
-        GraphHandler.update(getWorld());
         markDirty();
     }
 
@@ -174,8 +172,8 @@ public class ConnectorBlockEntity extends BlockEntityTickable {
         return IBoundingBox.INFINITE;
     }
 
-    @Override
-    public IEnergy getEnergy(Facing side) {
-        return energy;
-    }
+//    @Override
+//    public IEnergy getEnergy(Facing side) {
+//        return energy;
+//    }
 }
