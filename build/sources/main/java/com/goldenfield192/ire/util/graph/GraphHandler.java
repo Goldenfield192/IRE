@@ -4,7 +4,7 @@ import cam72cam.mod.block.BlockEntity;
 import cam72cam.mod.event.CommonEvents;
 import cam72cam.mod.math.Vec3i;
 import cam72cam.mod.world.World;
-import com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity;
+import com.goldenfield192.ire.tiles.TileConnector;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -24,7 +24,7 @@ public class GraphHandler {
     //加载已有世界
     public static void loadWorld(World world){
         if(!wireMap.containsKey(world)){
-            HashSet<Vec3i> cbeSet = world.getBlockEntities(ConnectorBlockEntity.class).stream()
+            HashSet<Vec3i> cbeSet = world.getBlockEntities(TileConnector.class).stream()
                     .map(BlockEntity::getPos).collect(Collectors.toCollection(HashSet::new));
             DimGraph dimGraph = new DimGraph(cbeSet);
             dimGraph.buildExistedSubGraphs(world);
