@@ -78,7 +78,7 @@
 //
 //        if (o == null || getClass() != o.getClass()) return false;
 //
-//        ConnectorBlockEntity that = (ConnectorBlockEntity) o;
+//        TileConnector that = (TileConnector) o;
 //
 //        return new EqualsBuilder()
 ////                .append(facing, that.facing)
@@ -97,9 +97,9 @@
 //    public void removeWire(){
 //        this.connectGraph.forEach(storage -> {
 //            if(getWorld().isServer){
-//                getWorld().getBlockEntity(storage.getTarget(),ConnectorBlockEntity.class)
+//                getWorld().getBlockEntity(storage.getTarget(),TileConnector.class)
 //                        .connectGraph.remove();
-//                System.out.println(getWorld().getBlockEntity(storage.getTarget(),ConnectorBlockEntity.class)
+//                System.out.println(getWorld().getBlockEntity(storage.getTarget(),TileConnector.class)
 //                        .connectGraph);
 //            }
 //        });

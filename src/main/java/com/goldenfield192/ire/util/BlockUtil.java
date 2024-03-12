@@ -1,20 +1,16 @@
 package com.goldenfield192.ire.util;
 
 import cam72cam.mod.block.BlockType;
-import cam72cam.mod.math.Vec3d;
 import cam72cam.mod.math.Vec3i;
 import cam72cam.mod.world.World;
-import com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity;
-
-import java.util.LinkedList;
-import java.util.List;
+import com.goldenfield192.ire.tiles.TileConnector;
 
 import static com.goldenfield192.ire.util.MathUtil.*;
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
 
 public class BlockUtil {
-    public static void vecToBlocks(ConnectorBlockEntity from, ConnectorBlockEntity to, BlockType block){
+    public static void vecToBlocks(TileConnector from, TileConnector to, BlockType block){
         World world = from.getWorld();
         Vec3i startPos = toVec3i(toVec3d(from.getPos()).add(from.inBlockOffset.rotateYaw(from.getRotation())));
         Vec3i endPos = toVec3i(toVec3d(to.getPos()).add(to.inBlockOffset.rotateYaw(to.getRotation())));

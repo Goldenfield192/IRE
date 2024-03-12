@@ -5,16 +5,14 @@ import cam72cam.mod.ModEvent;
 import cam72cam.mod.render.BlockRender;
 import cam72cam.mod.render.ItemRender;
 import cam72cam.mod.resource.Identifier;
-import com.goldenfield192.ire.blocks.entity.BatteryEntity;
-import com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity;
+import com.goldenfield192.ire.tiles.TIleBattery;
+import com.goldenfield192.ire.tiles.TileConnector;
 import com.goldenfield192.ire.init.BlocksInit;
 import com.goldenfield192.ire.init.ItemsInit;
 import com.goldenfield192.ire.init.TabsInit;
 import com.goldenfield192.ire.renderer.ConnectorRenderer;
 import com.goldenfield192.ire.renderer.SimpleBlockRenderer;
 import com.goldenfield192.ire.util.graph.GraphHandler;
-
-import java.io.IOException;
 
 @net.minecraftforge.fml.common.Mod(modid = IRE.MODID, name = "IRE", version = "0.0.1", dependencies = "required-after:immersiverailroading@[1.10, 1.11)", acceptedMinecraftVersions = "[1.12,1.13)")
 public class IRE extends ModCore.Mod{
@@ -59,8 +57,8 @@ public class IRE extends ModCore.Mod{
     public void clientEvent(ModEvent event) {
         switch (event){
             case CONSTRUCT:
-                BlockRender.register(BlocksInit.CONNECTOR_BLOCK, ConnectorRenderer::render, ConnectorBlockEntity.class);
-                BlockRender.register(BlocksInit.BATTERY_BLOCK, SimpleBlockRenderer::render, BatteryEntity.class);
+                BlockRender.register(BlocksInit.CONNECTOR_BLOCK, ConnectorRenderer::render, TileConnector.class);
+                BlockRender.register(BlocksInit.BATTERY_BLOCK, SimpleBlockRenderer::render, TIleBattery.class);
 
                 ItemRender.register(ItemsInit.CONNECTOR_ITEM,new Identifier(MODID,"items/guanmu"));
                 ItemRender.register(ItemsInit.WIRE_ITEM,new Identifier(MODID,"items/guanmu"));

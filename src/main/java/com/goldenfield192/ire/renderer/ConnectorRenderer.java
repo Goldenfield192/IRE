@@ -7,7 +7,7 @@ import cam72cam.mod.render.obj.OBJRender;
 import cam72cam.mod.render.opengl.RenderState;
 import cam72cam.mod.resource.Identifier;
 import com.goldenfield192.ire.IRE;
-import com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity;
+import com.goldenfield192.ire.tiles.TileConnector;
 
 import static com.goldenfield192.ire.util.MathUtil.*;
 
@@ -15,8 +15,7 @@ import static com.goldenfield192.ire.util.MathUtil.*;
 public class ConnectorRenderer{
 
     static OBJModel model,
-                    wire,
-                    linePart;
+                    wire;
     static {
         try {
             model = new OBJModel(new Identifier(IRE.MODID,"models/block/jiaxiangan1.obj"),0);
@@ -26,12 +25,12 @@ public class ConnectorRenderer{
         }
     }
 
-    public static StandardModel render(ConnectorBlockEntity gbe) {
+    public static StandardModel render(TileConnector gbe) {
         return new StandardModel().addCustom((state, partialTicks) -> BlockRenderer(gbe,state));
     }
 
     //史
-    private static void BlockRenderer(ConnectorBlockEntity cbe, RenderState state){
+    private static void BlockRenderer(TileConnector cbe, RenderState state){
         state.smooth_shading(true);
         state.translate(0.5,0,0.5);
         RenderState baseState = state.clone();
@@ -45,9 +44,9 @@ public class ConnectorRenderer{
         //渲染网
         Vec3d offset = cbe.inBlockOffset.rotateYaw(cbe.getRotation());
 
-        cbe.getConnection().keySet().stream().forEach(vec3i -> {
-            ConnectorBlockEntity cbe2 = cbe.getWorld()
-                    .getBlockEntity(cbe.getPos().add(vec3i), ConnectorBlockEntity.class);//目标节点
+        cbe.getConnection().keySet().forEach(vec3i -> {
+            TileConnector cbe2 = cbe.getWorld()
+                    .getBlockEntity(cbe.getPos().add(vec3i), TileConnector.class);//目标节点
             if(cbe.getConnection().get(vec3i) && cbe2 != null){
                 Vec3d offset2 = cbe2.inBlockOffset.rotateYaw(cbe2.getRotation());
                 RenderState storage = state.clone();

@@ -7,7 +7,7 @@ import cam72cam.mod.math.Vec3d;
 import cam72cam.mod.math.Vec3i;
 import cam72cam.mod.util.Facing;
 import cam72cam.mod.world.World;
-import com.goldenfield192.ire.blocks.entity.ConnectorBlockEntity;
+import com.goldenfield192.ire.tiles.TileConnector;
 
 public class ConnectorBlock extends BlockTypeEntity {
     private Facing facing = Facing.WEST;
@@ -22,7 +22,7 @@ public class ConnectorBlock extends BlockTypeEntity {
 
     @Override
     protected BlockEntity constructBlockEntity() {
-        return new ConnectorBlockEntity((this.facing == null ? Facing.SOUTH : this.facing).toString());
+        return new TileConnector((this.facing == null ? Facing.SOUTH : this.facing).toString());
     }
 
     @Override
