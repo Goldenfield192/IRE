@@ -1,5 +1,6 @@
 package com.goldenfield192.ire.tiles;
 
+import cam72cam.mod.ModCore;
 import cam72cam.mod.block.BlockEntityTickable;
 import cam72cam.mod.energy.IEnergy;
 import cam72cam.mod.entity.Player;
@@ -82,42 +83,49 @@ public class TileConnector extends BlockEntityTickable {
     @Override
     public boolean onClick(Player player, Player.Hand hand, Facing facing, Vec3d hit) {
         if (getWorld().isServer) {
-            System.out.println("------------For testing------------");
-            System.out.println(GraphHandler.getDimGraphByWorld(getWorld()).getGraphInDim().values());
-            System.out.println(this.subGraphID);
+            ModCore.info("------------For testing------------");
+            ModCore.info(GraphHandler.getDimGraphByWorld(getWorld()).getGraphInDim().values().toString());
+            ModCore.info(String.valueOf(this.subGraphID));
+            ModCore.info(String.valueOf(
+                    GraphHandler.getDimGraphByWorld(getWorld()).getSubGraphByUUID(subGraphID).energy.getCurrentInput()));
+            ModCore.info(String.valueOf(
+                    GraphHandler.getDimGraphByWorld(getWorld()).getSubGraphByUUID(subGraphID).energy.getCurrentOutput()));
             player.sendMessage(PlayerMessage.direct(String.valueOf(
-                    GraphHandler.getDimGraphByWorld(getWorld()).getSubGraphByUUID(subGraphID).energy.getCurrent())));
-        }
-        //迁移自WireItem 感动！
-        if (player.getHeldItem(Player.Hand.PRIMARY).is(WIRE_ITEM)) {
-            //物品的tag集
-            TagCompound compound = player.getHeldItem(Player.Hand.PRIMARY).getTagCompound();
-            if (compound != null && compound.getVec3i("pos") == null) {
-                compound.setVec3i("pos", this.getPos());
-                ItemStack is = new ItemStack(WIRE_ITEM, 1);
-                is.setTagCompound(compound);
-                player.setHeldItem(Player.Hand.PRIMARY, is);
-                player.sendMessage(PlayerMessage.direct("First point set: " + this.getPos()));
-            } else if (compound != null && getWorld().getBlockEntity(
-                    compound.getVec3i("pos"), TileConnector.class) != null) {
-                TileConnector tc = getWorld().getBlockEntity(compound.getVec3i("pos"), TileConnector.class);
-                if (tc != null && !tc.getPos().equals(this.getPos())) {
-                    if (tc.getPos().y != this.getPos().y) {
-                        player.sendMessage(PlayerMessage.direct("Don't support slope for now!"));
-                        return false;
-                    }
-                    player.sendMessage(PlayerMessage.direct("Linked"));
-                    tc.addWire(true, this.getPos().subtract(tc.getPos()));
-                    this.addWire(false, tc.getPos().subtract(this.getPos()));
-                    compound.setVec3i("pos", null);
-                    ItemStack is = new ItemStack(WIRE_ITEM, 1);
-                    is.setTagCompound(compound);
-                    player.setHeldItem(Player.Hand.PRIMARY, is);
-                }
-                return true;
+                    GraphHandler.getDimGraphByWorld(getWorld()).getSubGraphByUUID(subGraphID).energy.getStatus())));
+            //Moved from WireItem#onClickBlock since the code doesn't work there
+            if (player.getHeldItem(Player.Hand.PRIMARY).is(WIRE_ITEM)) {
+                //物品的tag集
+                attemptToAddWire(player);
             }
         }
         return true;
+    }
+
+    private void attemptToAddWire(Player player) {
+        TagCompound compound = player.getHeldItem(Player.Hand.PRIMARY).getTagCompound();
+        if (compound != null && compound.getVec3i("pos") == null) {
+            compound.setVec3i("pos", this.getPos());
+            ItemStack is = new ItemStack(WIRE_ITEM, 1);
+            is.setTagCompound(compound);
+            player.setHeldItem(Player.Hand.PRIMARY, is);
+            player.sendMessage(PlayerMessage.direct("First point set: " + this.getPos()));
+        } else if (compound != null && getWorld().getBlockEntity(
+                compound.getVec3i("pos"), TileConnector.class) != null) {
+            TileConnector tc = getWorld().getBlockEntity(compound.getVec3i("pos"), TileConnector.class);
+            if (tc != null && !tc.getPos().equals(this.getPos())) {
+                if (tc.getPos().y != this.getPos().y) {
+                    player.sendMessage(PlayerMessage.direct("Don't support slope for now!"));
+                    return;
+                }
+                player.sendMessage(PlayerMessage.direct("Linked"));
+                tc.addWire(true, this.getPos().subtract(tc.getPos()));
+                this.addWire(false, tc.getPos().subtract(this.getPos()));
+                compound.setVec3i("pos", null);
+                ItemStack is = new ItemStack(WIRE_ITEM, 1);
+                is.setTagCompound(compound);
+                player.setHeldItem(Player.Hand.PRIMARY, is);
+            }
+        }
     }
 
     @Override
@@ -160,10 +168,16 @@ public class TileConnector extends BlockEntityTickable {
         this.connection.forEach(((vec3i, bool) -> {
             TileConnector tc1 = getWorld().getBlockEntity(vec3i.add(this.getPos()), TileConnector.class);
             if (tc1 != null) {
-                tc1.getConnection().remove(Vec3i.ZERO.subtract(vec3i));
-                tc1.markDirty();
+                tc1.removeConnection(Vec3i.ZERO.subtract(vec3i));
             }
         }));
+    }
+
+    public void removeConnection(Vec3i relativePose) {
+        if (this.connection.containsKey(relativePose)) {
+            connection.remove(relativePose);
+        }
+        markDirty();
     }
 
     @Override

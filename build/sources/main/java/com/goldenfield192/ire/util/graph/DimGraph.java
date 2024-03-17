@@ -1,10 +1,12 @@
 package com.goldenfield192.ire.util.graph;
 
+import cam72cam.immersiverailroading.entity.EntityRollingStock;
 import cam72cam.mod.energy.Energy;
 import cam72cam.mod.math.Vec3i;
 import cam72cam.mod.serialization.TagField;
 import cam72cam.mod.world.World;
 import com.goldenfield192.ire.tiles.TileConnector;
+import com.goldenfield192.ire.util.IREEnergy;
 
 import java.util.*;
 
@@ -15,21 +17,16 @@ public class DimGraph {
 
     private final HashMap<UUID, SubGraph> graphInDim;
 
-    public HashSet<Vec3i> getDimNetworkSet() {
-        return dimNetworkSet;
-    }
+    private long ticks = 0;
 
     public HashMap<UUID, SubGraph> getGraphInDim() {
         return graphInDim;
     }
 
     public SubGraph getSubGraphByUUID(UUID uuid) {
-        if(graphInDim.get(uuid) != null){
-            return graphInDim.get(uuid);
-        }else{
-            return DimGraph.EMPTY_SUB_GRAPH;
-        }
+        return graphInDim.getOrDefault(uuid, DimGraph.EMPTY_SUB_GRAPH);
     }
+
     public DimGraph(HashSet<Vec3i> dimNetworkSet) {
         this.dimNetworkSet = dimNetworkSet;
         graphInDim = new HashMap<>();
@@ -84,7 +81,9 @@ public class DimGraph {
     public void buildExistedSubGraphs(World world) {
         this.dimNetworkSet.forEach(vec3i -> {
             TileConnector tc = world.getBlockEntity(vec3i, TileConnector.class);
-            if (tc != null) {
+            if (tc != null){
+                if(!graphInDim.containsKey(tc.getSubGraphID()))
+                    addSubGraph(tc.getPos(),tc.getSubGraphID());
                 graphInDim.get(tc.getSubGraphID()).add(tc);
             }
         });
@@ -94,15 +93,21 @@ public class DimGraph {
         this.graphInDim.put(uuid, new SubGraph(pos));
     }
 
+    public void onTick(){
+        ticks++;
+        this.graphInDim.values().forEach(subGraph -> subGraph.energy.update(ticks));
+    }
+
     public static class SubGraph {
         public HashSet<Vec3i> subGraphSet;
+        public HashSet<EntityRollingStock> stocks;
 
         @TagField("energy")
-        public Energy energy;
+        public IREEnergy energy;
 
         public SubGraph(Vec3i... vec3is) {
             subGraphSet = new HashSet<>();
-            energy = new Energy(0,1000);
+            energy = new IREEnergy();
             if (vec3is != null) {
                 subGraphSet.addAll(Arrays.asList(vec3is));
             }

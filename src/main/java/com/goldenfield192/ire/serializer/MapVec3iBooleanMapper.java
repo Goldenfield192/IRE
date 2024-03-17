@@ -6,10 +6,9 @@ import cam72cam.mod.serialization.TagField;
 import cam72cam.mod.serialization.TagMapper;
 
 import java.util.Map;
-
 public class MapVec3iBooleanMapper implements TagMapper<Map<Vec3i, Boolean>> {
 
-    public static final String KEYNAME = "entry";
+    public static final String KEY_NAME = "entry";
 
     @Override
     public TagAccessor<Map<Vec3i, Boolean>> apply(Class<Map<Vec3i, Boolean>> type, String fieldName, TagField tag) {
@@ -18,9 +17,9 @@ public class MapVec3iBooleanMapper implements TagMapper<Map<Vec3i, Boolean>> {
                 (nbt, map) -> {
                     if (map != null)
                         nbt.setMap(fieldName, map, MapVec3iBooleanMapper::posToString,
-                                value -> new TagCompound().setBoolean(KEYNAME, value));
+                                value -> new TagCompound().setBoolean(KEY_NAME, value));
                 },
-                nbt -> nbt.getMap(fieldName, MapVec3iBooleanMapper::stringToPos, valueTag -> valueTag.getBoolean(KEYNAME))
+                nbt -> nbt.getMap(fieldName, MapVec3iBooleanMapper::stringToPos, valueTag -> valueTag.getBoolean(KEY_NAME))
         );
     }
 

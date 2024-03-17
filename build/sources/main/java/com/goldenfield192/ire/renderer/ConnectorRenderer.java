@@ -15,8 +15,7 @@ import static com.goldenfield192.ire.util.MathUtil.*;
 public class ConnectorRenderer{
 
     static OBJModel model,
-                    wire,
-                    linePart;
+                    wire;
     static {
         try {
             model = new OBJModel(new Identifier(IRE.MODID,"models/block/jiaxiangan1.obj"),0);
@@ -45,7 +44,7 @@ public class ConnectorRenderer{
         //渲染网
         Vec3d offset = cbe.inBlockOffset.rotateYaw(cbe.getRotation());
 
-        cbe.getConnection().keySet().stream().forEach(vec3i -> {
+        cbe.getConnection().keySet().forEach(vec3i -> {
             TileConnector cbe2 = cbe.getWorld()
                     .getBlockEntity(cbe.getPos().add(vec3i), TileConnector.class);//目标节点
             if(cbe.getConnection().get(vec3i) && cbe2 != null){
@@ -55,7 +54,6 @@ public class ConnectorRenderer{
                 Vec3d rotation = toVec3d(vec3i).add(offset2)
                         .subtract(offset);
                 storage.scale(vecToLength(rotation), 1, vecToLength(rotation));
-//                storage.rotate();
                 storage.rotate(vecToDegree(rotation),0,1,0);
                 storage.cull_face(false);
                 try (OBJRender.Binding vbo = wire.binder().bind(storage)) {

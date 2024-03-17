@@ -15,10 +15,12 @@ public class GraphHandler {
     //初始化
     public static void init(){
         wireMap = new HashMap<>();
+        //Though I know I shouldn't do it like this I don't know another way to implement this
         CommonEvents.World.LOAD.subscribe(w ->{
             World world = World.get(w);
             loadWorld(world);
         });
+        CommonEvents.World.TICK.subscribe(w -> wireMap.get(World.get(w)).onTick());
     }
 
     //加载已有世界

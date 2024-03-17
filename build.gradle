@@ -45,6 +45,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.jetbrains:annotations:24.0.0'
     compile 'cam72cam.universalmodcore:UniversalModCore:1.12.2-forge-1.2.1-43860b4'
     compile 'cam72cam.immersiverailroading:ImmersiveRailroading:1.12.2-forge-1.10.0-6bbbde9'
     compile "trackapi:TrackAPI:1.12.2-forge-1.2"

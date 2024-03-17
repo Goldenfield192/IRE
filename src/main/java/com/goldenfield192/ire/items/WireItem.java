@@ -24,10 +24,10 @@ public class WireItem extends CustomItem {
 
     @Override
     public List<CreativeTab> getCreativeTabs() {
-        return Collections.singletonList(TabsInit.tabs.get("catenary"));
+        return Collections.singletonList(TabsInit.IRE_MAIN);
     }
 
-    //I don't know why it doesn't work after a change.See TileConnector#onClick
+    //I don't know why it doesn't work after a change. See TileConnector#onClick
     @Deprecated
     @Override
     public ClickResult onClickBlock(Player player, World world, Vec3i pos, Player.Hand hand, Facing facing, Vec3d inBlockPos) {

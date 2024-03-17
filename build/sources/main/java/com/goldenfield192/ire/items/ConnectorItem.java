@@ -22,7 +22,7 @@ public class ConnectorItem extends CustomItem {
 
     @Override
     public List<CreativeTab> getCreativeTabs() {
-        return Collections.singletonList(TabsInit.tabs.get("catenary"));
+        return Collections.singletonList(TabsInit.IRE_MAIN);
     }
 
     @Override

@@ -54,7 +54,6 @@ public class ConnectorRenderer{
                 Vec3d rotation = toVec3d(vec3i).add(offset2)
                         .subtract(offset);
                 storage.scale(vecToLength(rotation), 1, vecToLength(rotation));
-//                storage.rotate();
                 storage.rotate(vecToDegree(rotation),0,1,0);
                 storage.cull_face(false);
                 try (OBJRender.Binding vbo = wire.binder().bind(storage)) {
